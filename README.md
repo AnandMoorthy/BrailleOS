@@ -1,1 +1,1 @@
-Braille Pattern Based Mobile Operating System(FirefoxOs)for Blind and Visuallyy Impaired People
+Braille Pattern Based Mobile Operating System(FirefoxOs)for Blind and Visually Impaired People
