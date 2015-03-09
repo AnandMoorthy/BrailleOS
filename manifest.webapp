@@ -1,0 +1,14 @@
+{
+  "name": "Braille",
+  "description": "Braille Pattern Based Mobile OS for Blind and Visually Imapaired People",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/icon-512.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Your name or organization",
+    "url": "http://your-homepage-here.org"
+  },
+  "default_locale": "en"
+}
