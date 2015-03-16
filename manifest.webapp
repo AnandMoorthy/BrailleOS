@@ -1,5 +1,5 @@
 {
-  "name": "Braille",
+  "name": "BrailleOS",
   "description": "Braille Pattern Based Mobile OS for Blind and Visually Imapaired People",
   "launch_path": "/index.html",
   "icons": {
@@ -7,8 +7,8 @@
     "128": "/img/icon-128.png"
   },
   "developer": {
-    "name": "Your name or organization",
-    "url": "http://your-homepage-here.org"
+    "name": "Anand",
+    "url": "http://anandmoorthy.github.io"
   },
   "default_locale": "en"
 }
