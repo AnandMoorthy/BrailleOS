@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=320; user-scalable=no; initial-scale=1.0; maximum-scale=1.0" />
+    <title>Braille Pattern</title>
+
+    <link rel="stylesheet" type="text/css" href="_style/patternlock.css"/>
+    <script src="_script/patternlock.js"></script>
+
+    <!-- Developers Can Add their try new pattern here -->
+    <script>
+        function submitform(){
+
+            if(document.getElementById("password").value == 7415369)
+            {
+                 var a = new MozActivity({
+                    name: 'record',
+                    data: {
+                    type: "photos" 
+                         }
+                    });   
+                }
+                else if(document.getElementById("password").value == 2)
+                {
+                    
+                     var a = new MozActivity({
+                        name: 'dial',
+                         data: {
+                        type: "webtelephony/number" 
+                               }
+                         });   
+                }
+                else if(document.getElementById("password").value == 12)
+                {
+                    
+                     var a = new MozActivity({
+                        name: 'record',
+                         data: {
+                        type: "photos" 
+                               }
+                         });   
+                }
+                else if(document.getElementById("password").value == 1478)
+                {
+                    
+                     var a = new MozActivity({
+                        name: 'record',
+                         data: {
+                        type: "videos" 
+                               }
+                         });   
+                }
+                else(document.getElementById("password").value == 357)
+                    {
+                        
+                        
+            }
+            
+            /*alert("You entered " + document.getElementById("password").value);*/
+            return true;
+        }
+    </script>
+
+<style>
+    body{
+        text-align:center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+</style>
+</head>
+
+<body>
+    <form method="post" onsubmit="return submitform()">
+        <h2>Draw The Braille Pattern</h2>
+
+        <div>
+            <input type="password" id="password" name="password" class="patternlock" />
+            <input type="submit" value="login"/>
+        </div>
+    </form>
+</body>
+</html>

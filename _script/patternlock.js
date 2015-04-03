@@ -1,18 +1,3 @@
-/*
-9-dot pattern lock
-V1.03 beta
-©2011-2013 - Steffest
-
-This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License
-it comes WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-History
-    2011/04/11: initial version
-    2011/04/12: small bugfix: @PiRho_be dragging outside the pattern lock and releasing won't end the pattern: added document.onmouseup event
-    2013/10/20: some restructuring, support for IE mobile
-    2013/10/21: less DOM querying - only calculate gridsize once each touch sequence
-    2013/11/25: added clear method (to allow multiple patterns when autoSubmit is false)
-*/
 
 var patternLock = (function () {
 	
@@ -191,7 +176,7 @@ var buttonTouchOver = function(b){
 	if (isdrawing){
 		var thisbutton = b.id.split("patternlockbutton").join("");
 		
-		if(thisbutton != to){ // touching the same button twice in a row is not allowed (should it ?)
+		if(thisbutton != to){ 
 		
 			var cn = b.className;
 			if(cn.indexOf('touched')<0){
